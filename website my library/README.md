@@ -252,7 +252,7 @@ Aplikacja automatycznie tworzy bazę danych SQLite o nazwie `books-collection.db
 ### Uruchomienie
 
 ```bash
-python app.py
+python main.py
 ```
 
 Aplikacja będzie dostępna pod adresem `http://localhost:5000` lub `http://0.0.0.0:5000`.
