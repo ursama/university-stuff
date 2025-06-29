@@ -5,8 +5,6 @@ from flask_bootstrap import Bootstrap5
 app = Flask(__name__)
 bootstrap = Bootstrap5(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///books-collection.db"
-app.config["UPLOAD_EXTENSIONS"] = [".jpg", ".png"]
-app.config["UPLOAD_PATH"] = "image_uploads"
 db = SQLAlchemy()
 db.init_app(app)
 
