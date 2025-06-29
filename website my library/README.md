@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Dokumentacja Aplikacji My Library
 
 Aplikacja Flask do zarządzania kolekcją książek umożliwiająca dodawanie, przeglądanie, edytowanie i usuwanie książek z osobistej biblioteki. System pozwala na przechowywanie informacji o tytule, autorze, ocenie oraz obrazie okładki każdej książki.
@@ -254,7 +252,7 @@ Aplikacja automatycznie tworzy bazę danych SQLite o nazwie `books-collection.db
 ### Uruchomienie
 
 ```bash
-python app.py
+python main.py
 ```
 
 Aplikacja będzie dostępna pod adresem `http://localhost:5000` lub `http://0.0.0.0:5000`.
